@@ -8,7 +8,7 @@ export default class PortfolioContainer extends Component{
         super();
 
         this.state = {
-            pageTitle: "Welcome to my Portfolio",
+            pageTitle: "Welcome to my Pokemon Portfolio",
             isLoading: false,
             data: []
         };
@@ -43,9 +43,7 @@ export default class PortfolioContainer extends Component{
             return (
                 <PortfolioItem
                 key={item.id}
-                title={item.name}
-                url={item.url}
-                slug={item.id}
+                item={item}
                 />
             );
         });
