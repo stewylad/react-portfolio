@@ -70,7 +70,7 @@ export default class PortfolioManager extends Component {
   getPortfolioItems() {
     axios
       .get(
-        "https://devcamp.space/project/portfolio/data/portfolio_items",
+        "https://alexanderstewart.devcamp.space/portfolio/portfolio_items",
         {
           withCredentials: true
         }
